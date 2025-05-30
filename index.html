@@ -8,7 +8,7 @@
 </head>
 <body>
     <!--Top navigation bar-->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-danger"> 
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark"> 
         <div class="container-fluid"> 
             <a class="navbar-brand" href="#">Beadwork in Métis Culture</a> 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> 
@@ -35,9 +35,12 @@
             <h1 class="display-1 ">Tradition</h1> 
             <p class="h6 ">Promoting Métis Artistry</p>
         </div> 
-        <div class="col-md-5"> 
-            <svg aria-label="Placeholder: 500x500" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" height="500" preserveAspectRatio="xMidYMid slice" role="img" width="500" xmlns="http://www.w3.org/2000/svg"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg> 
-        </div> 
+        <div class="col-md-5">
+            <div class="d-flex justify-content-center">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="600" height="500" class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+                </div>
+            </div> 
     </div> 
 
     <br>
@@ -53,38 +56,60 @@
         </div> 
         <div class="carousel-inner"> 
             <div class="carousel-item  active"> 
-                <svg aria-hidden="true" class="bd-placeholder-img " height=500px preserveAspectRatio="xMidYMid slice" width="100%" xmlns="http://www.w3.org/2000/svg"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg> 
+                <img src="images/amDougInst.jpg" class="d-block " height="300px" alt="Metis Culture Image">
                 <div class="container"> 
-                    <div class="carousel-caption text-start"> 
-                        <h1>The Centre of Métis Culture and Language in British Columbia</h2> 
-                        <p class="opacity-75">The Amelia Douglas Institute for Métis Culture and Language’s website, dedicated to honouring and sharing the richness of Métis culture and Michif languages</p> 
+                    <div class="carousel-caption text-end "> 
+                        <h1 class="text-dark  ">The Centre of Métis Culture and Language in British Columbia</h2> 
+                        <p class="opacity-75 text-dark">The Amelia Douglas Institute for Métis Culture and Language’s website, dedicated to honouring and sharing the richness of Métis culture and Michif languages</p> 
                         <p><a class="btn btn-lg btn-primary" href="https://ameliadouglasinstitute.ca">Learn More</a></p> 
                     </div> 
                 </div> 
             </div> 
             <div class="carousel-item"> 
-                <svg aria-hidden="true" class="bd-placeholder-img " height=500px preserveAspectRatio="xMidYMid slice" width="100%" xmlns="http://www.w3.org/2000/svg"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg> 
+                <img src="images/rRemai.png" class="d-block " height="300px" alt="Metis Culture Image">
                 <div class="container"> 
                     <div class="carousel-caption"> 
-                        <h1>rRemai mModern</h1> 
-                        <p>Discover Storied Objects, Métis Art In Relation</p> 
+                        <h1 class="text-dark">rRemai mModern</h1> 
+                        <p class="text-dark">Discover Storied Objects, Métis Art In Relation</p> 
                         <p><a class="btn btn-lg btn-primary" href="https://remaimodern.org/whats-on/exhibitions-all/storied-objects-metis-art-in-relation/">Visit</a></p> 
                     </div> 
                 </div> 
             </div> 
             <div class="carousel-item"> 
-                <svg aria-hidden="true" class="bd-placeholder-img " height=500px preserveAspectRatio="xMidYMid slice" width="100%" xmlns="http://www.w3.org/2000/svg"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg> 
+                <img src="images/natCan.jpg" class="d-block " height="300px" alt="Metis Culture Image">
                 <div class="container"> 
                     <div class="carousel-caption text-end"> 
-                        <h1>Radical Stitch. National Gallery of Canada</h1> 
-                        <p>"Beading is one of the defining mediums of contemporary Indigenous art on this continent, and this landmark exhibition brings much-needed critical attention to the breadth and impact of this practice."</p> 
+                        <h1 class="text-dark">Radical Stitch. National Gallery of Canada</h1> 
+                        <p class="text-dark">"Beading is one of the defining mediums of contemporary Indigenous art on this continent, and this landmark exhibition brings much-needed critical attention to the breadth and impact of this practice."</p> 
                         <p><a class="btn btn-lg btn-primary" href="https://www.gallery.ca/whats-on/exhibitions-and-galleries/radical-stitch">Browse gallery</a></p> 
                     </div> 
                 </div> 
             </div> 
         </div> 
-        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="visually-hidden">Previous</span> </button> 
-        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="visually-hidden">Next</span> </button> 
+        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="visually-hidden">Previous</span> </button> 
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="visually-hidden">Next</span> </button> -->
+        <!-- Prev Button -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span aria-hidden="true">
+                <!-- Left Arrow Icon (Black) -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="black" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                </svg>
+            </span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <!-- Next Button -->
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span aria-hidden="true">
+                <!-- Right Arrow Icon (Black) -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="black" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+            </span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+        
     </div>
 
     <br>
@@ -98,9 +123,10 @@
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3"> 
         <div class="col"> 
             <div class="card shadow-sm"> 
-                <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img card-img-top" height="225" preserveAspectRatio="xMidYMid slice" role="img" width="100%" xmlns="http://www.w3.org/2000/svg"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> 
+                <img src="images/topBead.jpg" class="card-img-top" preserveAspectRatio="xMidYMid slice" width="100%" height="60%" alt="Metis Culture Image" x="50%" y="50%"  dy=".3em">
+
                 <div class="card-body"> 
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> 
+                    <p class="card-text">Art of Beadwork</p> 
                     <div class="d-flex justify-content-between align-items-center"> 
                         <div class="btn-group"> 
                             <a href="./article1.html" class="btn btn-outline-secondary" role="button">Read</a> 
@@ -111,22 +137,11 @@
         </div> 
         <div class="col"> 
             <div class="card shadow-sm"> 
-                <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img card-img-top" height="225" preserveAspectRatio="xMidYMid slice" role="img" width="100%" xmlns="http://www.w3.org/2000/svg"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                <div class="card-body"> <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> 
+                <img src="images/oldMet.jpg" class="card-img-top" preserveAspectRatio="xMidYMid slice" width="100%" height="60%" alt="Metis Culture Image" x="50%" y="50%"  dy=".3em">
+                <div class="card-body"> <p class="card-text">Métis Origins and the Making of a Beaded Identity</p> 
                     <div class="d-flex justify-content-between align-items-center"> <div class="btn-group"> 
                             <a href="./article2.html" class="btn btn-outline-secondary" role="button">Read</a> 
                     </div> 
-                </div> 
-            </div> 
-        </div> 
-    </div> 
-    <div class="col"> 
-        <div class="card shadow-sm"> 
-            <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img card-img-top" height="225" preserveAspectRatio="xMidYMid slice" role="img" width="100%" xmlns="http://www.w3.org/2000/svg"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> 
-            <div class="card-body"> 
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> 
-                <div class="d-flex justify-content-between align-items-center"> <div class="btn-group">
-                    <a href="./article3.html" class="btn btn-outline-secondary" role="button">Read</a>  
                 </div> 
             </div> 
         </div> 
@@ -139,13 +154,14 @@
     <!--Small business section with tabs --> 
 
     <div>
-        <h1 class="display-1 mt-5 mb=5 ms-2">Métis Businesses</h1>
+        <h1 class="display-1 mt-5 mb=5 ms-2">Support a Metis Business!</h1>
     </div>
 
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3"> 
         <div class="col"> 
             <div class="card shadow-sm"> 
-                <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img card-img-top" height="225" preserveAspectRatio="xMidYMid slice" role="img" width="100%" xmlns="http://www.w3.org/2000/svg"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> 
+                <img src="images/beadnb.jpg" class="card-img-top" preserveAspectRatio="xMidYMid slice" width="100%" height="60%" alt="Metis Culture Image" x="50%" y="50%"  dy=".3em">
+ 
                 <div class="card-body"> 
                     <h2>Bead n' Butter</h2>
                     <p class="card-text">Métis Beadwork based in Winnipeg, MB</p> 
@@ -159,7 +175,7 @@
         </div> 
         <div class="col"> 
             <div class="card shadow-sm"> 
-                <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img card-img-top" height="225" preserveAspectRatio="xMidYMid slice" role="img" width="100%" xmlns="http://www.w3.org/2000/svg"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                <img src="images/kimooowun.jpg" class="card-img-top" preserveAspectRatio="xMidYMid slice" width="100%" height="60%" alt="Metis Culture Image" x="50%" y="50%"  dy=".3em">
                 <div class="card-body">
                     <h2>Kimoowun beads</h2> 
                     <p class="card-text">Contemporary Métis beadwork</p> 
@@ -171,8 +187,9 @@
         </div> 
     </div> 
     <div class="col"> 
-        <div class="card shadow-sm"> 
-            <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img card-img-top" height="225" preserveAspectRatio="xMidYMid slice" role="img" width="100%" xmlns="http://www.w3.org/2000/svg"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> 
+        <div class="card shadow-sm">
+            <img src="images/spiritArt.jpg" class="card-img-top" preserveAspectRatio="xMidYMid slice" width="100%" height="60%" alt="Metis Culture Image" x="50%" y="50%"  dy=".3em">
+
             <div class="card-body"> 
                 <h2>Metis Spirit Art</h2>
                 <p class="card-text"> Art and design inspired by Métis beadwork</p> 
@@ -192,9 +209,9 @@
      <div class="ms-2">
         <h1 class="display-1 mt-5 mb=5 ms-2">Our Creative Mission</h1>
         <div class="d-flex align-items-start gap-3 p-3 rounded">
-            <svg aria-hidden="true" class="bd-placeholder-img " height=300px preserveAspectRatio="xMidYMid slice" width=300px xmlns="http://www.w3.org/2000/svg"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg> 
+            <img src="images/crMis.jpg" class="card-img-top" preserveAspectRatio="xMidYMid slice" height="300px" alt="Metis Culture Image" x="50%" y="50%"  dy=".3em">
             <div class="d-flex flex-column">
-                <p class="mb-2">This is a paragraph describing something interesting. It sits to the right of the image.</p>
+                <p class="mb-2">Our mission is to honor, celebrate, and share the living legacy of the Métis culture. This website particularly focuses on the artistry of beadwork. We aim to showcase Métis beadwork by promoting small businesses and museums with beadwork showings. Whether you are reconnecting with your roots or learning for the first time, our space is built to support, inspire and encourage the need to explore culture and appreciate the creativity of human beings. </p>
                 <button class="btn btn-primary align-self-start">Learn More</button>
             </div>
         </div>
@@ -235,9 +252,11 @@
     </div>
 
     <!-- 16:9 aspect ratio -->
-    <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
-    </div>
+    <div class="d-flex justify-content-center">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="600" height="500" class="embed-responsive-item" src="https://www.youtube.com/watch?v=YvulIRnPE3Y" allowfullscreen></iframe>
+                </div>
+    </div> 
     
 
     <!-- Final/Email -->
