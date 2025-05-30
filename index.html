@@ -54,68 +54,56 @@
         <h1 class="display-1 mt-5 mb=5 ms-2">Museums</h1>
     </div>
 
-    <div id="myCarousel" class="carousel slide mt-6 mb-6" data-bs-ride="carousel"> 
-        <div class="carousel-indicators"> <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button> 
-            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button> 
-            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button> 
-        </div> 
-        <div class="carousel-inner"> 
-            <div class="carousel-item  active"> 
-                <img src="images/amDougInst.jpg" class="d-block " height="300px" alt="Metis Culture Image">
-                <div class="container"> 
-                    <div class="carousel-caption text-end "> 
-                        <h1 class="text-dark  ">The Centre of Métis Culture and Language in British Columbia</h2> 
-                        <p class="opacity-75 text-dark">The Amelia Douglas Institute for Métis Culture and Language’s website, dedicated to honouring and sharing the richness of Métis culture and Michif languages</p> 
-                        <p><a class="btn btn-lg btn-primary" href="https://ameliadouglasinstitute.ca">Learn More</a></p> 
-                    </div> 
-                </div> 
-            </div> 
-            <div class="carousel-item"> 
-                <img src="images/rRemai.png" class="d-block " height="300px" alt="Metis Culture Image">
-                <div class="container"> 
-                    <div class="carousel-caption"> 
-                        <h1 class="text-dark">rRemai mModern</h1> 
-                        <p class="text-dark">Discover Storied Objects, Métis Art In Relation</p> 
-                        <p><a class="btn btn-lg btn-primary" href="https://remaimodern.org/whats-on/exhibitions-all/storied-objects-metis-art-in-relation/">Visit</a></p> 
-                    </div> 
-                </div> 
-            </div> 
-            <div class="carousel-item"> 
-                <img src="images/natCan.jpg" class="d-block " height="300px" alt="Metis Culture Image">
-                <div class="container"> 
-                    <div class="carousel-caption text-end"> 
-                        <h1 class="text-dark">Radical Stitch. National Gallery of Canada</h1> 
-                        <p class="text-dark">"Beading is one of the defining mediums of contemporary Indigenous art on this continent, and this landmark exhibition brings much-needed critical attention to the breadth and impact of this practice."</p> 
-                        <p><a class="btn btn-lg btn-primary" href="https://www.gallery.ca/whats-on/exhibitions-and-galleries/radical-stitch">Browse gallery</a></p> 
-                    </div> 
-                </div> 
-            </div> 
-        </div> 
-        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="visually-hidden">Previous</span> </button> 
-        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="visually-hidden">Next</span> </button> -->
-        <!-- Prev Button -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-            <span aria-hidden="true">
-                <!-- Left Arrow Icon (Black) -->
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="black" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
-                </svg>
-            </span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <!-- Next Button -->
-        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-            <span aria-hidden="true">
-                <!-- Right Arrow Icon (Black) -->
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="black" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                </svg>
-            </span>
-            <span class="visually-hidden">Next</span>
-        </button>
-
-        
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+  <!-- Card 1 -->
+  <div class="col">
+    <div class="card shadow-sm">
+      <img src="images/amDougInst.jpg" class="card-img-top" preserveAspectRatio="xMidYMid slice" width="100%" height="300px" alt="Metis Culture Image" x="50%" y="50%" dy=".3em">
+      <div class="card-body">
+        <h3 class="text-dark">The Centre of Métis Culture and Language in British Columbia</h1> 
+        <p class="opacity-75 text-dark">The Amelia Douglas Institute for Métis Culture and Language’s website, dedicated to honouring and sharing the richness of Métis culture and Michif languages</p>
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="btn-group">
+            <a href="https://ameliadouglasinstitute.ca" class="btn btn-outline-secondary" role="button">Visit</a>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="col">
+    <div class="card shadow-sm">
+      <img src="images/rRemai.png" class="card-img-top" preserveAspectRatio="xMidYMid slice" width="100%" height="350px" alt="Metis Culture Image" x="50%" y="50%" dy=".3em">
+      <div class="card-body">
+        <h3 class="text-dark"> rRemai mModern</h3>
+        <p class="opacity-75 text-darkt">Discover Storied Objects, Métis Art In Relation</p>
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="btn-group">
+            <a href="https://remaimodern.org/whats-on/exhibitions-all/storied-objects-metis-art-in-relation/" class="btn btn-outline-secondary" role="button">Visit</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="col">
+    <div class="card shadow-sm">
+      <img src="images/natCan.jpg" class="card-img-top" preserveAspectRatio="xMidYMid slice" width="100%" height="300px" alt="Metis Culture Image" x="50%" y="50%" dy=".3em">
+      <div class="card-body">
+        <h3 class="text-dark"> Radical Stitch. National Gallery of Canada </h3>
+        <p class="opacity-75 text-dark">Beading is one of the defining mediums of contemporary Indigenous art on this continent, and this landmark exhibition brings much-needed critical attention to the breadth and impact of this practice.</p>
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="btn-group">
+            <a href="https://www.gallery.ca/whats-on/exhibitions-and-galleries/radical-stitch" class="btn btn-outline-secondary" role="button">Read</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
     <br>
     <br>
@@ -159,7 +147,7 @@
     <!--Small business section with tabs --> 
 
     <div>
-        <h1 class="display-1 mt-5 mb=5 ms-2">Support a Metis Business!</h1>
+        <h1 class="display-1 mt-5 mb=5 ms-2">Support a Métis Business!</h1>
     </div>
 
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3"> 
@@ -196,7 +184,7 @@
             <img src="images/spiritArt.jpg" class="card-img-top" preserveAspectRatio="xMidYMid slice" width="100%" height="60%" alt="Metis Culture Image" x="50%" y="50%"  dy=".3em">
 
             <div class="card-body"> 
-                <h2>Metis Spirit Art</h2>
+                <h2>Métis Spirit Art</h2>
                 <p class="card-text"> Art and design inspired by Métis beadwork</p> 
                 <div class="d-flex justify-content-between align-items-center"> <div class="btn-group">
                     <a href="https://www.metisspiritart.ca/pages/about-us" class="btn btn-outline-info" role="button">Explore</a>  
